@@ -58,3 +58,72 @@ Response
 }
 
 ```
+
+
+###PUT https://backend-assignment-ef25.onrender.com/tasks/:id
+```sh
+{
+    "title": "React",
+    "description" : "Revise the topics of react"
+}
+
+```
+Response 
+
+```sh
+{
+    "id": "45cb8fca-7ee2-4058-89ee-ac3f7dfda262",
+    "title": "React",
+    "description": "Revise the topics of react"
+}
+
+```
+
+
+###GET https://backend-assignment-ef25.onrender.com/tasks/
+```sh
+
+Response 
+
+```sh
+[
+    {
+        "id": "9f991011-edec-4c5b-bf63-1a25b18b68e4",
+        "title": "React Revise",
+        "description": "Revise the topics of react"
+    }
+]
+
+```
+
+
+###GET https://backend-assignment-ef25.onrender.com/tasks/:id
+```sh
+
+Response 
+
+```sh
+
+    {
+        "id": "9f991011-edec-4c5b-bf63-1a25b18b68e4",
+        "title": "React Revise",
+        "description": "Revise the topics of react"
+    }
+
+
+```
+
+
+###DELETE https://backend-assignment-ef25.onrender.com/tasks/:id
+```sh
+
+Response 
+
+```sh
+
+    {
+    "message": "Task deleted successfully."
+}
+
+
+```
