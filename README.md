@@ -38,3 +38,23 @@ The backend will run at http://localhost:3000/.
 
 
 Deployed URL ("https://backend-assignment-ef25.onrender.com")
+
+
+ ###POST https://backend-assignment-ef25.onrender.com/tasks/
+```sh
+{
+    "title": "React Revise",
+    "description" : "Revise the topics of react"
+}
+
+```
+Response 
+
+```sh
+{
+    "id": "45cb8fca-7ee2-4058-89ee-ac3f7dfda262",
+    "title": "React Revise",
+    "description": "Revise the topics of react"
+}
+
+```
